@@ -14,12 +14,12 @@ overloading: return type doesn't matter, parameters list must be different
 overriding: return type must be same
 
 
-** different of paremeters list by:
+**#different of paremeters list by:**
 different number of parameters
 different order of parameters
 different type of parameters
 
-** Function overloading by return type?
+**#Function overloading by return type?**
 This is forbidded by java language (NOT jvm)
 because jvm don't kown which mehtod to call in following situation:
 ```
@@ -30,4 +30,4 @@ int doSomething() { ... }
 doSomething(); // which one to call???
 ```
 
-But some other languages support [function overloading by return type](http://stackoverflow.com/questions/442026/function-overloading-by-return-type), like perl 
+But some other languages support [function overloading by return type](http://stackoverflow.com/questions/442026/function-overloading-by-return-type), like perl.

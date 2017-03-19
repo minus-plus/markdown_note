@@ -1,4 +1,3 @@
-
 Checked vs Unchecked Exceptions in Java
 In Java, there two types of exceptions:
 

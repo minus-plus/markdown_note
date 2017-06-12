@@ -1,4 +1,4 @@
-https://stackoverflow.com/questions/19884295/soap-vs-rest-differences
+https://stackoverflow.com/questions/19884295/soap-vs-rest-differences    
 Unfortunately, there are a lot of misinformation and misconceptions around REST. Not only your question and the answer by @cmd reflect those, but most of the questions and answers related to the subject on Stack Overflow.
 
 SOAP and REST can’t be compared directly, since the first is a protocol (or at least tries to be) and the second is an architectural style. This is probably one of the sources of confusion around it, since people tend to call REST any HTTP API that isn’t SOAP.

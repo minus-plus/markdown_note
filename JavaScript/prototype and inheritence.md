@@ -21,15 +21,16 @@ __proto__ and prototype has difference meanings.
 __proto__是为了property look up，__proto__依次将object本身和祖先类串联在一起，这样就能通过原型链look up祖先类的property。  
 ![](http://4.bp.blogspot.com/-ZaGWJf5fHcU/UGs_P61HOGI/AAAAAAAAAew/Kzl96APzqlk/s1600/Javascript+Prototypal+Inheritance+Diagram+-+grand+picture+-+with+some+Dog+objects+(1).png)   
 
-var oo = Object.create(o);
-// oo.__proto__ === o, true
-Object.create will bind o.__proto__ to oo. 因此Object.create的主要作用是建立原型链。
+var oo = Object.create(o);  
+// oo.__proto__ === o, true  
+Object.create will bind o.__proto__ to oo. 因此Object.create的主要作用是建立原型链。  
+```
 var o = {a:1, f: function(){}};
 var oo = Object.create(o);
 console.log(oo); //Object {}
 console.log(oo.a) // 1
 console.log(oo.f) //function (){}
-
+```
 #### new keyword
 ```
 function Car() {
